@@ -1,10 +1,14 @@
 import React from "react";
+import { Cards } from "../cards/cards";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <p>Formulario</p>
+      <p>GoT</p>
+      <>
+        <Cards></Cards>
+      </>
     </div>
   );
 }
