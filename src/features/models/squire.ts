@@ -1,4 +1,5 @@
-import { Character, DtoCharacter } from "../models/character.js";
+import { DtoCharacter } from "./card";
+import { Character } from "../models/character";
 
 export class Squire extends Character {
   public knight: string;

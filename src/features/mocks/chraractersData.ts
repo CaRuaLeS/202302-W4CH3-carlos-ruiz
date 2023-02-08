@@ -1,7 +1,7 @@
-import { Brawler } from "../models/brawler.js";
-import { King } from "../models/king.js";
-import { RightHand } from "../models/rightHand.js";
-import { Squire } from "../models/squire.js";
+import { Brawler } from "../models/brawler";
+import { King } from "../models/king";
+import { RightHand } from "../models/rightHand";
+import { Squire } from "../models/squire";
 
 const joffrey = new King(
   {

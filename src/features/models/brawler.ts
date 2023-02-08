@@ -1,4 +1,5 @@
-import { Character, DtoCharacter } from "./character.js";
+import { DtoCharacter } from "./card";
+import { Character } from "./character";
 
 export class Brawler extends Character {
   public weapon: string;

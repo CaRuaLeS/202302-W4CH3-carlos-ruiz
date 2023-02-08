@@ -1,12 +1,6 @@
-export type DtoCharacter = {
-  series: string;
-  name: string;
-  family: string;
-  age: number;
-  isAlive: boolean;
-};
+import { DtoCharacter } from "./card";
 
-export class Character {
+export class Character implements DtoCharacter {
   public series: string;
   public name: string;
   public family: string;
